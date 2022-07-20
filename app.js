@@ -16,3 +16,4 @@ app.get('/', (req,res)=>{
     }
     res.render('list',{kindOfDay:day})
 })
+

@@ -7,6 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Today is <%= =%></h1>
+
+   <% if(kindOfDay === 'weekday'){%>
+     <h1 style="color:aliceblue">Today is <%= kindOfDay=%></h1>
+    <% }else{ %>
+       <h1 style="color:blue">Today is <%= kindOfDay=%></h1>
+       
+    <%}%>
+
 </body>
 </html>
